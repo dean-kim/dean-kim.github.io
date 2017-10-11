@@ -4,12 +4,6 @@ title: About
 permalink: /about/
 ---
 
----
-layout: page
-title: About
-permalink: /about/
----
-
 Software Engineer
 
 ### Technical Skills

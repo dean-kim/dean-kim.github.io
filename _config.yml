@@ -41,7 +41,9 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-# disqus_shortname: bencentra
+disqus_shortname: https-dean-kim-github-io
+disqus_url: http://disqus.com/by/deankim07
+disqus_id: deankim07
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"

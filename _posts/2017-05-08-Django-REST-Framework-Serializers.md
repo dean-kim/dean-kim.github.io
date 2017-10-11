@@ -4,7 +4,7 @@ title:  "Django REST Framework -Serializers"
 date:   2017-05-08 08:43:59
 author: Dean Kim
 categories: Rest_Framework
-tags:	Django, Rest_framework
+tags:	Django Rest_framework
 cover:  "/assets/instacode.png"
 ---
 

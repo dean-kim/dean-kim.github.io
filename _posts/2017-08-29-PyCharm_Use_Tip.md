@@ -3,7 +3,7 @@ layout: post
 title:  "PyCharm Use Tip"
 date:   2017-08-29 13:25:00
 author: Dean Kim
-categories: T.I.L
+categories: TIL
 tags:	PyCharm Use Tip
 cover:  "/assets/instacode.png"
 ---

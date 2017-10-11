@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74f96485-b52b-425c-8b83-b6249aa1e7cc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-05-11-Django-REST-Framework-Validators.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-08-29-PyCharm_Use_Tip.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-04-18-dummy.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-04-18-dummy2.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-04-18-dummy3.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-04-18-dummy4.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-04-18-dummy5.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-04-18-dummy6.markdown" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-05-08-Django-REST-Framework-Serializers.md" afterPath="$PROJECT_DIR$/_posts/2017-05-08-Django-REST-Framework-Serializers.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.md" afterPath="$PROJECT_DIR$/about.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -47,8 +57,8 @@
       <file leaf-file-name="2017-05-08-Django-REST-Framework-Serializers.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-05-08-Django-REST-Framework-Serializers.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            <state relative-caret-position="120">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -74,12 +84,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <first_editor relative-caret-position="615">
+                <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-08-29-PyCharm_Use_Tip.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-08-29-PyCharm_Use_Tip.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-05-11-Django-REST-Framework-Validators.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-05-11-Django-REST-Framework-Validators.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -133,7 +169,6 @@
         <option value="$PROJECT_DIR$/_site/index.html" />
         <option value="$PROJECT_DIR$/_includes/google_analytics.html" />
         <option value="$PROJECT_DIR$/_posts/2017-07-14-Django-Models-Model_field_reference.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-08-29-PyCharm_Use_Tip.md" />
         <option value="$PROJECT_DIR$/_posts/2017-09-06-Django-Model_Query_expressions.md" />
         <option value="$PROJECT_DIR$/_posts/2017-08-29-Django-Model_QuerySet_API_reference.md" />
         <option value="$PROJECT_DIR$/_posts/index.html" />
@@ -146,9 +181,11 @@
         <option value="$PROJECT_DIR$/_posts/TIL/2017-09-22-Programming-Language.md" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_posts/2015-04-18-welcome-to-jekyll.markdown" />
-        <option value="$PROJECT_DIR$/_posts/2017-05-08-Django-REST-Framework-Serializers.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/2017-05-08-Django-REST-Framework-Serializers.md" />
         <option value="$PROJECT_DIR$/about.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-08-29-PyCharm_Use_Tip.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-05-11-Django-REST-Framework-Validators.md" />
       </list>
     </option>
   </component>
@@ -243,6 +280,20 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="_includes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dean-kim.github.io">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -556,13 +607,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/feed.xml" />
     <entry file="file://$PROJECT_DIR$/style.scss" />
     <entry file="file://$PROJECT_DIR$/.gitignore" />
@@ -618,7 +662,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/TIL/index.html" />
-    <entry file="file://$PROJECT_DIR$/_posts/2017-08-29-PyCharm_Use_Tip.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-05-17-Django-Models-Intro.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-05-08-Django-REST-Framework-Serializers.md" />
     <entry file="file://$PROJECT_DIR$/_posts/TIL/2017-08-29-PyCharm_Use_Tip.md" />
@@ -658,34 +701,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="43" column="3" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-05-08-Django-REST-Framework-Serializers.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="38" lean-forward="false" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -709,11 +728,57 @@
     <entry file="file://$PROJECT_DIR$/about.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <first_editor relative-caret-position="615">
+            <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-08-29-PyCharm_Use_Tip.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-05-08-Django-REST-Framework-Serializers.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-05-11-Django-REST-Framework-Validators.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

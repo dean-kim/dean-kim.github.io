@@ -39,4 +39,4 @@ Software Engineer
 
 ### Contact me
 
-[keunu07@gmail.com](mailto:email@domain.com)
+[keunu07@gmail.com](mailto:keunu07@gmail.com)

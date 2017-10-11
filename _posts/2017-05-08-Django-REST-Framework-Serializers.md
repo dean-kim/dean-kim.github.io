@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Django REST Framework -Serializers"
-date:   2017-05-88 08:43:59
+date:   2017-05-08 08:43:59
 author: Dean Kim
 categories: Rest_framework
 tags:	Django Rest_framework

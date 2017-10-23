@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74f96485-b52b-425c-8b83-b6249aa1e7cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-05-12-Django-REST-Framework-Responses.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-05-22-Django-REST-Framework-Parsers.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-05-22-Django-REST-Framework-Permissions.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-05-22-Django-REST-Framework-Views.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-05-24-Django-REST-Framework-GenericViews.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-06-20-Django-REST-Framework-Serializer_fields.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-06-28-Django-REST-Framework-Serializer_relations.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-07-06-Django-Models_and_databases-Making_queries.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +19,8 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2017-05-12-Django-REST-Framework-Responses.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-05-12-Django-REST-Framework-Responses.md">
+      <file leaf-file-name="2017-06-28-Django-REST-Framework-Serializer_relations.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-06-28-Django-REST-Framework-Serializer_relations.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="120">
@@ -30,25 +32,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-05-22-Django-REST-Framework-Parsers.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-05-22-Django-REST-Framework-Parsers.md">
+      <file leaf-file-name="2017-07-06-Django-Models_and_databases-Making_queries.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-07-06-Django-Models_and_databases-Making_queries.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="120">
-                <caret line="8" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-05-22-Django-REST-Framework-Permissions.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-05-22-Django-REST-Framework-Permissions.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+                <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -106,11 +95,9 @@
       <list>
         <option value="$PROJECT_DIR$/_site/feed.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/_posts/2017-06-28-Django-REST-Framework-Serializer_relations.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-06-Django-REST-Framework-Authentication.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-06-Django-REST-Framework-Renderers.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-06-Django-Models-Making_queries.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-07-06-Django-Models_and_databases-Making_queries.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-14-Python-Pandas-practice.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-21-Django-Forms-Overview.md" />
         <option value="$PROJECT_DIR$/_posts/2017-07-14-Python-Pandas-Study.md" />
@@ -150,6 +137,11 @@
         <option value="$PROJECT_DIR$/_posts/2017-05-12-Django-REST-Framework-Responses.md" />
         <option value="$PROJECT_DIR$/_posts/2017-05-22-Django-REST-Framework-Parsers.md" />
         <option value="$PROJECT_DIR$/_posts/2017-05-22-Django-REST-Framework-Permissions.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-05-22-Django-REST-Framework-Views.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-05-24-Django-REST-Framework-GenericViews.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-20-Django-REST-Framework-Serializer_fields.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-28-Django-REST-Framework-Serializer_relations.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-07-06-Django-Models_and_databases-Making_queries.md" />
       </list>
     </option>
   </component>
@@ -522,7 +514,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -580,11 +572,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2017-05-08-Django-REST-Framework-Serializers.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/TIL/2017-08-29-PyCharm_Use_Tip.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/TIL/2017-09-19-Transaction.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/TIL/2017-09-22-Programming-Language.md" />
-    <entry file="file://$PROJECT_DIR$/_posts/TIL/2017-09-25-Decorator.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-08-29-Django-Model_QuerySet_API_reference.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-05-11-Django-REST-Framework-Validators.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -931,8 +918,63 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-05-22-Django-REST-Framework-Permissions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-05-22-Django-REST-Framework-Views.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-05-24-Django-REST-Framework-GenericViews.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-20-Django-REST-Framework-Serializer_fields.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-28-Django-REST-Framework-Serializer_relations.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-07-06-Django-Models_and_databases-Making_queries.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />

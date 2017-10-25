@@ -3,7 +3,7 @@ layout: post
 title:  "Django Models_and_databases-Making_queries"
 date:   2017-07-06 10:43:59
 author: Dean Kim
-categories: Rest_Framework
+categories: Django
 tags:	Django Models databases queries
 cover:  "/assets/instacode.png"
 ---

@@ -4,14 +4,9 @@ title:  "Django Models_and_databases-Making_queries"
 date:   2017-07-14 10:43:59
 author: Dean Kim
 categories: Django
-tags:	Django Models field_reference
+tags:	Django Models Model_field_reference
 cover:  "/assets/instacode.png"
 ---
----
-layout: post
-title: Django Models-Model_field_reference
----
-
 
 # Model field reference
 - 원본 : [공식문서](https://docs.djangoproject.com/en/1.11/ref/models/fields/)

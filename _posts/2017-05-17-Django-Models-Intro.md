@@ -3,7 +3,7 @@ layout: post
 title:  "Django Model-Intro"
 date:   2017-05-17 10:43:59
 author: Dean Kim
-categories: Rest_Framework
+categories: Django
 tags:	Django Model
 cover:  "/assets/instacode.png"
 ---

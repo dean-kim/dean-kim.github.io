@@ -40,6 +40,8 @@ if __name__ == '__main__':
 자세한 설명은 [공식문서](https://docs.python.org/3/library/unittest.html)를 참조하세요.
 <tt style="color: #FF0000">`stack`</tt>은 앞으로 작성해서 테스트를 진행할 파일입니다.
 
+<tt style="color: #FF0000">`if __name__ == '__main__':`</tt>부분은 커맨드라인에서 파이썬 파일을 실행할 때만 실행됨을 의미합니다.
+
 import한 unittest를 상속해서 test class를 작성합니다.
 ~~~~
 # in test_stack.py

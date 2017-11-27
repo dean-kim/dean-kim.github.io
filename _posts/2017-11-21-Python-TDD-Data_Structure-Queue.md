@@ -9,7 +9,7 @@ cover:  "/assets/instacode.png"
 ---
 
 # Queue
-- 설명 : [공식문서](https://ko.wikipedia.org/wiki/%ED%81%90_(%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0))
+- 설명 : [위키백과](https://ko.wikipedia.org/wiki/%ED%81%90_(%EC%9E%90%EB%A3%8C_%EA%B5%AC%EC%A1%B0))
 
 <tt style="color: #FF0000">`Queue`</tt>은 제한적으로 접근할 수 있는 나열 구조입니다. 접근은 항상 목록의 끝에서만 일어납니다.
 그래서 한 쪽 끝에서만 자료를 넣거나 뺄 수 있는 선형 구조로 되어있습니다. (FIFO - First In First Out)

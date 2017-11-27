@@ -9,7 +9,7 @@ cover:  "/assets/instacode.png"
 ---
 
 # Stack
-- 설명 : [공식문서](https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%9D)
+- 설명 : [위키백과](https://ko.wikipedia.org/wiki/%EC%8A%A4%ED%83%9D)
 
 <tt style="color: #FF0000">`Stack`</tt>은 제한적으로 접근할 수 있는 나열 구조입니다. 접근은 항상 목록의 끝에서만 일어납니다.
 그래서 한 쪽 끝에서만 자료를 넣거나 뺄 수 있는 선형 구조로 되어있습니다. (LIFO - Last In First Out)
@@ -127,9 +127,7 @@ AttributeError: 'Stack' object has no attribute 'storage'
 Ran 1 test in 0.001s
 
 FAILED (errors=1)
-
 ~~~~
-
 이전에 작성한 stack.py에서 storage를 작성하지 않아 storage를 찾을 수 없다고 나오는 것을 확인할 수 있습니다.
 이제 stack.py를 작성하러 갑니다.
 
@@ -143,7 +141,6 @@ class Stack:
         self.storage = []
 ~~~~
 여기까지 작성한 후 터미널에서 python3.6 test_stack.py를 실행시키면 다음과 같은 메세지가 나오는 것을 확인할 수 있습니다.
-
 ~~~~
 .
 ----------------------------------------------------------------------
@@ -257,7 +254,6 @@ AttributeError: 'Stack' object has no attribute 'pop'
 Ran 4 tests in 0.001s
 
 FAILED (errors=2)
-
 ~~~~
 오류 메세지를 확인했으니 이를 해결할 코드를 stack.py에 작성하러 갑니다.
 

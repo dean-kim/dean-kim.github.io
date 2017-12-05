@@ -74,7 +74,6 @@ class Queue:
     def __init__(self):
         pass
 ~~~~
-
 만들었으면 터미널에서 다시 python3.6 test_queue.py를 실행시키면 다음과 같은 메세지가 나오는 것을 확인할 수 있습니다.
 ~~~~
 
@@ -121,7 +120,6 @@ Ran 1 test in 0.001s
 
 FAILED (errors=1)
 ~~~~
-
 이전에 작성한 python_queue.py에서 storage를 작성하지 않아 storage를 찾을 수 없다고 나오는 것을 확인할 수 있습니다.
 이제 python_queue.py를 작성하러 갑니다.
 
@@ -135,7 +133,6 @@ class Queue:
         self.storage = []
 ~~~~
 여기까지 작성한 후 터미널에서 python3.6 test_queue.py를 실행시키면 다음과 같은 메세지가 나오는 것을 확인할 수 있습니다.
-
 ~~~~
 .
 ----------------------------------------------------------------------

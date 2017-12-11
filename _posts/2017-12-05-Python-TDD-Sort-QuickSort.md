@@ -78,6 +78,7 @@ Ran 0 tests in 0.000s
 
 OK
 ~~~~
+        else:
 
 ### 테스트 작성 -2
 
@@ -135,7 +136,6 @@ python_quicksort.py에 quick_sort 메소드를 정의해줍니다.
                     mid.append(unsorted_collection[i])
             mid.append(pivot)
             return self.quick_sort(left) + mid + self.quick_sort(right)
-        else:
             return unsorted_collection
 ~~~~
 여기까지 작성한 후 터미널에서 python3.6 test_python_quicksort.py를 실행시키면 다음과 같은 메세지가 나오는 것을 확인할 수 있습니다.

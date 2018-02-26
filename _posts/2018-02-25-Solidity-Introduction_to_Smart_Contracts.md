@@ -56,7 +56,7 @@ Ethereum의 경우, 이것은 항상 소유 계약입니다. 이 경우 <tt styl
 
 <b>Warning</b>
 비슷한 모양의(또는 심지어 같은) 문자는 다른 코드 포인트를 가질 수 있고 다른 바이트 배열로 인코딩되기 때문에 유니 코드 텍스트를 사용할 때 주의하십시오.
-</b>Warnig End</b>
+<b>Warnig End</b>
 
 ### Subcurrency Example
 

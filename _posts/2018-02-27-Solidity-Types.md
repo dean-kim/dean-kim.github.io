@@ -55,14 +55,14 @@ Division은 항상 자릅니다. (EVM의 <tt style="color: #FF0000">`DIV`</tt> o
 시프트 연산의 결과는 왼쪽 피연산자의 유형입니다. 표현식 <tt style="color: #FF0000">`x << y`</tt>는 <tt style="color: #FF0000">`x * 2 ** y`</tt>와 같고 <tt style="color: #FF0000">`x >> y`</tt>는 <tt style="color: #FF0000">`x / 2 ** y`</tt>와 같습니다. 즉, 음수 부호 이동이 확장됨을 의미합니다. 음수로 시프트하면 런타임 예외가 발생합니다.
 
 <b>Warning</b>
-부호있는 정수 유형의 음수 값 시프트 권한에 의해 생성된 결과는 다른 프로그래밍 언어에 의해 생성된 결과와 다릅니다. 고밀도에서 오른쪽 지도를 나누기로 이동하면 이동된 음수 값이 0으로 반올림됩니다(잘렸음). 다른 프로그래밍 언어에서 음수 값의 시프트 권한은 반올림(음의 무한대 방향)과 함께 나누기와 같이 작동합니다.
-<b>Warning End</b>
+<br>부호있는 정수 유형의 음수 값 시프트 권한에 의해 생성된 결과는 다른 프로그래밍 언어에 의해 생성된 결과와 다릅니다. 고밀도에서 오른쪽 지도를 나누기로 이동하면 이동된 음수 값이 0으로 반올림됩니다(잘렸음). 다른 프로그래밍 언어에서 음수 값의 시프트 권한은 반올림(음의 무한대 방향)과 함께 나누기와 같이 작동합니다.
+<br><b>Warning End</b>
 
 ### Fixed Point Numbers
 
 <b>Warning</b>
-고정 소수점 수는 아직 Solidity에서 완전히 지원하지 않습니다. 그것들은 선언할 수는 있지만 지정할 수는 없습니다.
-<b>Warning End</b>
+<br>고정 소수점 수는 아직 Solidity에서 완전히 지원하지 않습니다. 그것들은 선언할 수는 있지만 지정할 수는 없습니다.
+<br><b>Warning End</b>
 
 <tt style="color: #FF0000">`fixed`</tt> / <tt style="color: #FF0000">`ufixed`</tt> : 다양한 크기의 부호가 있는 고정 소수점 수. 
 키워드 <tt style="color: #FF0000">`ufixedMxN`</tt> 및 <tt style="color: #FF0000">`fixedMxN`</tt>입니다. 
@@ -75,9 +75,9 @@ Division은 항상 자릅니다. (EVM의 <tt style="color: #FF0000">`DIV`</tt> o
 * 산술 연산자 : <tt style="color: #FF0000">`+`</tt>, <tt style="color: #FF0000">`-`</tt>, 단항의 <tt style="color: #FF0000">`-`</tt>, 단항의 <tt style="color: #FF0000">`+`</tt>, <tt style="color: #FF0000">`*`</tt>, <tt style="color: #FF0000">`/`</tt>, <tt style="color: #FF0000">`%`</tt>(나머지)
 
 <b>Note</b>
-부동 소수점 (많은 언어에서 <tt style="color: #FF0000">`float`</tt>과 <tt style="color: #FF0000">`double`</tt>, 더 정확하게 IEEE 754 숫자)과 고정 소수점 숫자 사이의 주요 차이점은 정수에 사용되는 비트 수와 소수 부분 (십진수 도트 뒤의 부분)은 전자는 엄격하게 후자에 정의되어있다. 
+<br>부동 소수점 (많은 언어에서 <tt style="color: #FF0000">`float`</tt>과 <tt style="color: #FF0000">`double`</tt>, 더 정확하게 IEEE 754 숫자)과 고정 소수점 숫자 사이의 주요 차이점은 정수에 사용되는 비트 수와 소수 부분 (십진수 도트 뒤의 부분)은 전자는 엄격하게 후자에 정의되어있다. 
 일반적으로 부동 소수점에서는 거의 전체 공간이 숫자를 나타내는 데 사용되지만 극소수의 비트만 소수점을 정의합니다.
-<b>Note End</b>
+<br><b>Note End</b>
 
 ### Address
 
@@ -87,8 +87,8 @@ Division은 항상 자릅니다. (EVM의 <tt style="color: #FF0000">`DIV`</tt> o
 * <tt style="color: #FF0000">`<=`</tt>, <tt style="color: #FF0000">`<`</tt>, <tt style="color: #FF0000">`==`</tt>, <tt style="color: #FF0000">`!=`</tt>, <tt style="color: #FF0000">`>=`</tt> 그리고 <tt style="color: #FF0000">`>`</tt>
 
 <b>Note</b>
-버전 0.5.0부터 시작하는 계약은 주소 유형에서 파생되지 않지만 명시 적으로 주소로 변환 될 수 있습니다.
-<b>Note End</b>
+<br>버전 0.5.0부터 시작하는 계약은 주소 유형에서 파생되지 않지만 명시 적으로 주소로 변환 될 수 있습니다.
+<br><b>Note End</b>
 
 ### Member of Addresses
 
@@ -105,18 +105,18 @@ if (x.balance < 10 && myAddress.balance >= 10) x.transfer(10);
 ~~~~
 
 <b>Note</b>
-<tt style="color: #FF0000">`x`</tt>가 계약 주소인 경우 해당 코드(보다 구체적으로 : fallback 함수가 있는 경우)가 <tt style="color: #FF0000">`transfer`</tt>와 함께 실행됩니다 (EVM의 기능이므로 막을 수 없습니다). 
+<br><tt style="color: #FF0000">`x`</tt>가 계약 주소인 경우 해당 코드(보다 구체적으로 : fallback 함수가 있는 경우)가 <tt style="color: #FF0000">`transfer`</tt>와 함께 실행됩니다 (EVM의 기능이므로 막을 수 없습니다). 
 해당 실행에 가스가 부족하거나 어떤식 으로든 실패하는 경우 Ether 전송이 되돌려지고 현재 계약이 예외로 중지됩니다.
-<b>Note End</b>
+<br><b>Note End</b>
 
 * <tt style="color: #FF0000">`send`</tt>
 
 보내기는 <tt style="color: #FF0000">`transfer`</tt>의 하위 수준입니다. 실행이 실패하면 현재 계약은 예외로 중지되지 않고 <tt style="color: #FF0000">`send`</tt>는 <tt style="color: #FF0000">`false`</tt>를 반환합니다.
 
 <b>Warning</b>
-<tt style="color: #FF0000">`send`</tt>를 사용하는데 위험이 있습니다:
+<br><tt style="color: #FF0000">`send`</tt>를 사용하는데 위험이 있습니다:
 콜 스택 깊이가 1024(호출자가 항상 강제로 설정할 수 있음)인 경우 전송이 실패하고 수신자의 가스가 부족한 경우에도 전송이 실패합니다. 그러므로 안전하게 Ether를 이전하기 위해서는 항상 <tt style="color: #FF0000">`send`</tt>의 반환 값을 확인하거나, <tt style="color: #FF0000">`transfer`</tt>를 사용해야 합니다. 수신자가 돈을 인출하는 패턴을 사용하십시오.
-<b>Warning End</b>
+<br><b>Warning End</b>
 
 * <tt style="color: #FF0000">`call`</tt>, <tt style="color: #FF0000">`callcode`</tt> 그리고 <tt style="color: #FF0000">`delegatecall`</tt>
 
@@ -149,10 +149,10 @@ nameReg.call.gas(1000000).value(1 ether)("register", "MyName");
 ~~~~
 
 <b>Note</b>
-overloaded 함수에서 가스 또는 값 수정자를 사용할 수 없습니다.
+<br>overloaded 함수에서 가스 또는 값 수정자를 사용할 수 없습니다.
 
 이 문제를 해결하려면 가스 및 값에 대한 특별한 경우를 소개하고 overloaded 해결 시점에 가스 및 값이 존재하는지 다시 확인하십시오.
-<b>Note End</b>
+<br><b>Note End</b>
 
 유사한 방식으로 <tt style="color: #FF0000">`delegatecall`</tt> 함수를 사용할 수 있습니다. 차이점은 지정된 주소의 코드만 사용되며 다른 모든 측면(storage, balance, ...)은 현재 계약에서 가져온 것입니다. 
 <tt style="color: #FF0000">`delegatecall`</tt>의 목적은 다른 계약서에 저장된 라이브러리 코드를 사용하는 것입니다. 사용자는 두 계약의 저장소 레이아웃을 사용하여 <tt style="color: #FF0000">`delegatecall`</tt>을 사용하는 것이 적합해야 합니다. 
@@ -163,16 +163,16 @@ homestead 이전에는 원래 <tt style="color: #FF0000">`msg.sender`</tt> 및 <
 <tt style="color: #FF0000">`.gas()`</tt> 옵션은 세 가지 방법 모두에서 사용할 수 있지만 <tt style="color: #FF0000">`.value()`</tt> 옵션은 <tt style="color: #FF0000">`delegatecall`</tt>에서 지원되지 않습니다.
 
 <b>Note</b>
-모든 계약은 주소 구성원을 상속하므로 <tt style="color: #FF0000">`this.balance`</tt>를 사용하여 현재 계약의 잔액을 쿼리할 수 있습니다.
-<b>Note End</b>
+<br>모든 계약은 주소 구성원을 상속하므로 <tt style="color: #FF0000">`this.balance`</tt>를 사용하여 현재 계약의 잔액을 쿼리할 수 있습니다.
+<br><b>Note End</b>
 
 <b>Note</b>
-<tt style="color: #FF0000">`callcode`</tt> 사용은 권장되지 않으며 나중에 제거될 것입니다.
-<b>Note End</b>
+<br><tt style="color: #FF0000">`callcode`</tt> 사용은 권장되지 않으며 나중에 제거될 것입니다.
+<br><b>Note End</b>
 
 <b>Warning</b>
-이 모든 함수들은 low-level의 함수이므로 주의해서 사용해야 합니다. 구체적으로 알 수 없는 계약은 악성일 수 있으며 호출할 경우 해당 계약에 제어 권한을 넘겨주고 다시 계약 상태로 되돌릴 수 있으므로 call이 반환될 때 상태 변수가 변경될 수 있습니다.
-<b>Warning End</b>
+<br>이 모든 함수들은 low-level의 함수이므로 주의해서 사용해야 합니다. 구체적으로 알 수 없는 계약은 악성일 수 있으며 호출할 경우 해당 계약에 제어 권한을 넘겨주고 다시 계약 상태로 되돌릴 수 있으므로 call이 반환될 때 상태 변수가 변경될 수 있습니다.
+<br><b>Warning End</b>
 
 ### Fixed-size byte arrays
 
@@ -189,8 +189,8 @@ Members:
 * <tt style="color: #FF0000">`.length`</tt> 바이트 배열의 고정 길이를 반환합니다(읽기 전용).
 
 <b>Note</b>
-바이트의 배열을 <tt style="color: #FF0000">`byte[]`</tt>로 사용할 수는 있지만, 호출할 때 정확히 모든 31 바이트의 공간을 낭비하고 있습니다. <tt style="color: #FF0000">`bytes`</tt>를 사용하는 것이 좋습니다.
-</b>Note End</b>
+<br>바이트의 배열을 <tt style="color: #FF0000">`byte[]`</tt>로 사용할 수는 있지만, 호출할 때 정확히 모든 31 바이트의 공간을 낭비하고 있습니다. <tt style="color: #FF0000">`bytes`</tt>를 사용하는 것이 좋습니다.
+<br></b>Note End</b>
 
 ### Dynamically-sized byte array
 
@@ -203,8 +203,8 @@ Members:
 일반적으로 임의 길이의 원시 바이트 데이터에는 <tt style="color: #FF0000">`bytes`</tt>를 사용하고 임의 길이 문자열 (UTF-8) 데이터에는 <tt style="color: #FF0000">`string`</tt>을 사용합니다. 길이를 특정 바이트 수로 제한 할 수 있으면 훨씬 저렴하기 때문에 항상 <tt style="color: #FF0000">`bytes1`</tt> - <tt style="color: #FF0000">`bytes32`</tt> 중 하나를 사용하십시오.
 
 <b>Note</b>
-대소 문자가 혼합된 주소 체크섬 형식은 [EIP-55](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-55.md)에 정의되어 있습니다.
-<b>Note End</b>
+<br>대소 문자가 혼합된 주소 체크섬 형식은 [EIP-55](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-55.md)에 정의되어 있습니다.
+<br><b>Note End</b>
 
 ### Rational and Integer Literals
 
@@ -221,16 +221,16 @@ Members:
 정수에 적용할 수 있는 연산자는 피연산자가 정수인 경우 숫자 리터럴 식에도 적용할 수 있습니다. 둘 중 하나라도 소수일 경우 비트 연산이 허용되지 않으며 지수가 소수일 경우 지수가 허용되지 않습니다(비 유리수가 발생할 수 있으므로).
 
 <b>Note</b>
-Solidity는 각 유리수에 대해 숫자 상수 유형을 가집니다. 정수 리터럴과 유리수 리터럴은 숫자 리터럴 유형에 속합니다. 또한 모든 숫자 리터럴 표현식(즉, 숫자 리터럴 및 연산자만 포함된 표현식)은 숫자 리터럴 유형에 속합니다. 따라서 숫자 리터럴 표현식 <tt style="color: #FF0000">`1 + 2`</tt>와 <tt style="color: #FF0000">`2 + 1`</tt>은 모두 유리수 3에 대해 동일한 숫자 리터럴 유형에 속합니다.
-<b>Note End</b>
+<br>Solidity는 각 유리수에 대해 숫자 상수 유형을 가집니다. 정수 리터럴과 유리수 리터럴은 숫자 리터럴 유형에 속합니다. 또한 모든 숫자 리터럴 표현식(즉, 숫자 리터럴 및 연산자만 포함된 표현식)은 숫자 리터럴 유형에 속합니다. 따라서 숫자 리터럴 표현식 <tt style="color: #FF0000">`1 + 2`</tt>와 <tt style="color: #FF0000">`2 + 1`</tt>은 모두 유리수 3에 대해 동일한 숫자 리터럴 유형에 속합니다.
+<br><b>Note End</b>
 
 <b>Warning</b>
-이전 버전에서는 정수 리터럴의 부분이 잘리지 않았지만 이제는 유리수로 변환됩니다. 즉, <tt style="color: #FF0000">`5 / 2`</tt>는 <tt style="color: #FF0000">`2`</tt>와 같지 않지만 <tt style="color: #FF0000">`2.5`</tt>로 변환됩니다.
-<b>Warning End</b>
+<br>이전 버전에서는 정수 리터럴의 부분이 잘리지 않았지만 이제는 유리수로 변환됩니다. 즉, <tt style="color: #FF0000">`5 / 2`</tt>는 <tt style="color: #FF0000">`2`</tt>와 같지 않지만 <tt style="color: #FF0000">`2.5`</tt>로 변환됩니다.
+<br><b>Warning End</b>
 
 <b>Note</b>
-숫자 리터럴 표현식은 리터럴이 아닌 표현식과 함께 사용되는 즉시 리터럴이 아닌 유형으로 변환됩니다. 다음 예제에서 <tt style="color: #FF0000">`b`</tt>에 지정된 식의 값이 정수로 계산되지만 부분 식 <tt style="color: #FF0000">`2.5 + a`</tt>는 코드가 컴파일되지 않도록 유형 확인을 수행하지 않습니다.
-<b>Note End</b>
+<br>숫자 리터럴 표현식은 리터럴이 아닌 표현식과 함께 사용되는 즉시 리터럴이 아닌 유형으로 변환됩니다. 다음 예제에서 <tt style="color: #FF0000">`b`</tt>에 지정된 식의 값이 정수로 계산되지만 부분 식 <tt style="color: #FF0000">`2.5 + a`</tt>는 코드가 컴파일되지 않도록 유형 확인을 수행하지 않습니다.
+<br><b>Note End</b>
 
 ~~~~
 uint128 a = 1;
@@ -413,8 +413,8 @@ contract OracleUser {
 ~~~~
 
 <b>Note</b>
-람다 또는 인라인 함수는 계획되었지만 아직 지원되지 않습니다.
-<b>Note End</b>
+<br>람다 또는 인라인 함수는 계획되었지만 아직 지원되지 않습니다.
+<br><b>Note End</b>
 
 
 ## Reference Types
@@ -488,8 +488,8 @@ memory 배열의 경우 매핑이 될 수 없으며 공개적으로 표시되는
 <tt style="color: #FF0000">`bytes`</tt>는 항상 저렴하기 때문에 항상 <tt style="color: #FF0000">`bytes[]`</tt>보다 선호되어야 합니다.
 
 <b>Note</b>
-문자열 <tt style="color: #FF0000">`s`</tt>의 바이트 표현에 액세스하려면 <tt style="color: #FF0000">`bytes(s).length`</tt> / <tt style="color: #FF0000">`bytes(s)[7] = 'x';`</tt>를 사용하십시오. UTF-8 표현의 하위 레벨 바이트에 액세스하고 있지만 개별 문자는 액세스 할 수 없습니다!
-<b>Note End</b>
+<br>문자열 <tt style="color: #FF0000">`s`</tt>의 바이트 표현에 액세스하려면 <tt style="color: #FF0000">`bytes(s).length`</tt> / <tt style="color: #FF0000">`bytes(s)[7] = 'x';`</tt>를 사용하십시오. UTF-8 표현의 하위 레벨 바이트에 액세스하고 있지만 개별 문자는 액세스 할 수 없습니다!
+<br><b>Note End</b>
 
 배열을 <tt style="color: #FF0000">`public`</tt>으로 표시하고 Solidity가 [getter](https://solidity.readthedocs.io/en/latest/contracts.html#visibility-and-getters)를 생성하도록 할 수 있습니다. 숫자 인덱스는 getter에 대한 필수 매개 변수가 됩니다.
 
@@ -561,15 +561,15 @@ memory 배열의 크기는 일단 생성되면 고정되지만 동적(런타임 
 이 함수는 배열 끝에 요소를 추가하는 데 사용할 수 있습니다. 이 함수는 새로운 길이를 반환합니다.
 
 <b>Warning</b>
-외부 함수에서 배열을 사용할 수는 없습니다.
-<b>Warning End</b>
+<br>외부 함수에서 배열을 사용할 수는 없습니다.
+<br><b>Warning End</b>
 
 <b>Warning</b>
-EVM의 제한으로 인해 외부 함수 호출에서 동적 내용을 반환할 수 없습니다. 
+<br>EVM의 제한으로 인해 외부 함수 호출에서 동적 내용을 반환할 수 없습니다. 
 <tt style="color: #FF0000">`contract C {function f() returns (uint[]) {...}}`</tt>의 <tt style="color: #FF0000">`f`</tt>가 web3.js에서 호출되면 무언가를 반환하지만 Solidity에서 호출된 경우에는 반환하지 않습니다.
 
 유일한 해결 방법은 큰 정적 크기의 배열을 사용하는 것입니다.
-<b>Warning End</b>
+<br><b>Warning End</b>
 
 ~~~~
 pragma solidity ^0.4.16;
@@ -728,8 +728,8 @@ contract MappingUser {
 ~~~~
 
 <b>Note</b>
-매핑은 반복 가능하지 않지만, 그 위에 데이터 구조를 구현할 수 있습니다. 예를 들어 [반복 가능한 매핑](https://github.com/ethereum/dapp-bin/blob/master/library/iterable_mapping.sol)을 참조하십시오.
-<b>Note End</b>
+<br>매핑은 반복 가능하지 않지만, 그 위에 데이터 구조를 구현할 수 있습니다. 예를 들어 [반복 가능한 매핑](https://github.com/ethereum/dapp-bin/blob/master/library/iterable_mapping.sol)을 참조하십시오.
+<br><b>Note End</b>
 
 ### Operators Involving LValues
 
@@ -814,5 +814,5 @@ var y = x;
 여기에서 <tt style="color: #FF0000">`y`</tt>의 유형은 <tt style="color: #FF0000">`uint24`</tt>입니다. 함수 매개 변수나 반환 매개 변수에서는 <tt style="color: #FF0000">`var`</tt>를 사용할 수 없습니다.
 
 <b>Warning</b>
-첫 번째 할당에서만 유형이 추론되므로 다음 스니펫의 루프에서 <tt style="color: #FF0000">`i`</tt>는 <tt style="color: #FF0000">`uint8`</tt> 유형을 가지며 이 유형의 가장 높은 값이 <tt style="color: #FF0000">`2000`</tt>보다 작기 때문에 무한합니다. <tt style="color: #FF0000">`for (var i = 0; i <2000; i ++) {...}`</tt>
-<b>Warning End</b>
+<br>첫 번째 할당에서만 유형이 추론되므로 다음 스니펫의 루프에서 <tt style="color: #FF0000">`i`</tt>는 <tt style="color: #FF0000">`uint8`</tt> 유형을 가지며 이 유형의 가장 높은 값이 <tt style="color: #FF0000">`2000`</tt>보다 작기 때문에 무한합니다. <tt style="color: #FF0000">`for (var i = 0; i <2000; i ++) {...}`</tt>
+<br><b>Warning End</b>

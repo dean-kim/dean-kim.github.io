@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Solidity Units and Globally Available Variables"
-date:   2018-02-28 18:43:59
+title:  "Solidity Expressions and Control Structures"
+date:   2018-03-03 18:43:59
 author: Dean Kim
 categories: BlockChain
 tags:	BlockChain Solidity Smart_Contracts
@@ -443,5 +443,3 @@ contract Sharer {
 되돌리기 위한 이유는 예상되는 효과가 발생하지 않았기 때문에 실행을 계속하기 위한 안전한 방법이 없다는 것입니다. 
 우리가 트랜잭션의 원자성을 유지하기를 원하기 때문에 가장 안전한 방법은 모든 변경 사항을 되돌리고 전체 트랜잭션 (또는 적어도 호출)을 적용하지 않고 수행하는 것입니다. 
 <tt style="color: #FF0000">`assert`</tt>-style 예외는 호출에 사용할 수 있는 모든 가스를 소비하지만 <tt style="color: #FF0000">`requie`</tt>-style 예외는 메트로 폴리스 릴리스부터 시작하는 가스를 소비하지 않습니다.
-
-<tt style="color: #FF0000">``</tt>

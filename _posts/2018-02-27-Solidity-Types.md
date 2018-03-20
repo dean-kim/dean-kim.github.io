@@ -14,7 +14,7 @@ cover:  "/assets/instacode.png"
 
 # Types
 
-Solidity는 정적타 언어입니다. 즉, 컴파일 시점에 각 변수(state and local)의 유형을 지정해야합니다 (또는 적어도 하단부의 Type Deduction 참조). Solidity는 복합 유형을 형성하기 위해 결합할 수 있는 몇 가지 기본 유형을 제공합니다.
+Solidity는 정적타입 언어입니다. 즉, 컴파일 시점에 각 변수(state and local)의 유형을 지정해야합니다 (또는 적어도 하단부의 Type Deduction 참조). Solidity는 복합 유형을 형성하기 위해 결합할 수 있는 몇 가지 기본 유형을 제공합니다.
 
 또한 유형은 연산자가 포함된 표현식에서 서로 상호 작용할 수 있습니다. 다양한 연산자에 대한 빠른 참조는 [Order of Precedence of Operators](https://solidity.readthedocs.io/en/latest/miscellaneous.html#order)를 참조하십시오.
 

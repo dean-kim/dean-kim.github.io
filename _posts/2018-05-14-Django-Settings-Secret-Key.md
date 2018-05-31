@@ -1,7 +1,8 @@
+---
 title:  "Django settings secret key"
 date:   2018-05-14 19:30:00
 author: Dean Kim
-categories: Docker
+categories: Django
 tags:	Django settings secret-key
 cover:  "/assets/instacode.png"
 ---

@@ -133,9 +133,9 @@ contract NoShow {
             pendingReturns[client] = 0;
         }
         // event KeepPromise에 예약자와 예약금을 기록합니다.
-        KeepPromise(msg.sender, reservationFee);
+        KeepPromise(msg.sender, amount);
         // 예약자에게 예약금 전액을 반환합니다.
-        client.transfer(reservationFee);
+        client.transfer(amount);
     } 
 }
 ~~~~

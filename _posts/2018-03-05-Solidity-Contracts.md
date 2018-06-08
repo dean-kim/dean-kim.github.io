@@ -811,6 +811,28 @@ super를 사용할 때 호출되는 실제 함수는 사용된 클래스의 컨�
 
 생성자는 계약 작성과 동시에 실행되는 계약과 동일한 이름의 선택적 함수입니다. 생성자 함수는 <tt style="color: #FF0000">`public`</tt> 또는 <tt style="color: #FF0000">`internal`</tt>일 수 있습니다.
 
+생성자는 계약 생성시 실행되는 <tt style="color: #FF0000">`constructor`</tt>생성자 키워드로 선언된 선택적 함수입니다. <tt style="color: #FF0000">`public`</tt> 또는 <tt style="color: #FF0000">`internal`</tt>일 수 있습니다. 생성자가 없으면 계약에서 기본 생성인 <tt style="color: #FF0000">`contructor() public {}`</tt>을 사용합니다.
+
+~~~~
+pragma solidity ^0.4.22;
+
+contract A {
+    uint public a;
+
+    constructor(uint _a) internal {
+        a = _a;
+    }
+}
+
+contract B is A(1) {
+    constructor() public {}
+}
+~~~~
+
+<tt style="color: #FF0000">`internal`</tt>로 설정된 생성자는 계약을 [abstract](https://solidity.readthedocs.io/en/latest/contracts.html#abstract-contract)으로 표시합니다.
+
+<b>Note</b>
+<br>버전 0.4.22 이전에는 생성자가 계약과 동일한 이름을 가진 함수로 정의되었습니다. 이 구문은 이제 더 이상 사용되지 않습니다.
 ~~~~
 pragma solidity ^0.4.11;
 
@@ -826,8 +848,7 @@ contract B is A(1) {
     function B() public {}
 }
 ~~~~
-
-<tt style="color: #FF0000">`internal`</tt>로 설정된 생성자는 계약을 [abstract](https://solidity.readthedocs.io/en/latest/contracts.html#abstract-contract)으로 표시합니다.
+<br><b>Note End</b>
 
 ### Arguments for Base Constructors
 
